@@ -1,0 +1,13 @@
+Comando úteis para o terraform
+
+terraform init = Iniciar o terraform
+
+terraform plan = Criar o plano de execução
+
+terraform plan -out="tfplan.out" = Atualizar o script com algo novo
+
+terraform fmt = Fazer identação do script de acordo com as melhores práticas do terraform
+
+terraform validate = Verificar se o script está ok
+
+terraform destroy = Destruir os recursos que foram criados
