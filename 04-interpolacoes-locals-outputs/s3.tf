@@ -16,3 +16,14 @@ resource "aws_s3_object" "object" {
 
   etag = filemd5(local.ip_filepath)
 }
+
+// Importando bucket que já existe no AWS
+
+resource "aws_s3_bucket" "manual" {
+  # (resource arguments)
+
+  bucket = "meubucketpedros"
+
+  tags = local.common_tags
+}
+
