@@ -23,7 +23,7 @@ resource "aws_s3_bucket" "my-test-bucket" {
     Environment = "Dev"
     ManagedBy   = "Terraform"
     Owner       = "Pedro Santos"
-    UpdateAt  = timestamp()
+    UpdateAt    = timestamp()
   }
 }
 
