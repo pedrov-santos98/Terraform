@@ -11,3 +11,5 @@ terraform fmt = Fazer identação do script de acordo com as melhores práticas 
 terraform validate = Verificar se o script está ok
 
 terraform destroy = Destruir os recursos que foram criados
+
+terraform workspace -h = Comandos para usar os workspaces
